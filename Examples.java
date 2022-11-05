@@ -1,8 +1,12 @@
 
 public class Examples {
-    int edad;
+    int age =  9;
 
-    public int edadF() {
-        return this.edad = this.edad + 1;
+    public int getAge() {
+        return age;
+    }
+
+    public int updateAge() {
+        return this.age = this.age + 1;
     }
 }
