@@ -13,11 +13,12 @@ public class BucleFor {
         for (int number : numbers) {
             System.out.print(number);
             System.out.print("\n");
-
         }
+
         System.out.print("\n");
         System.out.print("-----");
         System.out.print("\n");
+
         String[] names = { "clara", "juan", "paco", "pedro", "marta" };
 
         for (String name : names) {
